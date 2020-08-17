@@ -7,8 +7,8 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.autograd import Variable
 from torch.utils.data import DataLoader
-from Loss import dice_coeff
-from GenerateFilePath import trainData, validationData
+from Loss import DC_and_CE_loss, dice_coeff
+from PrepareData import trainData, validationData
 from PrepareData import load_case_data, DataSets
 import NetModel
 
@@ -17,33 +17,15 @@ warnings.filterwarnings("ignore")
 
 # os.environ['CUDA_VISIBLE_DEVICES'] = '0,1'
 # device = torch.device('cuda:1' if torch.cuda.is_available() else 'cpu')
-device = torch.device('cpu')
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 model = NetModel.UNetStage1()
 model = model.to(device)
 
-class BCEFocalLoss(torch.nn.Module):
-    def __init__(self, gamma=2, alpha=0.25, reduction='elementwise_mean'):
-        super().__init__()
-        self.gamma = gamma
-        self.alpha = alpha
-        self.reduction = reduction
-    def forward(self, _input, target):
-        pt = torch.sigmoid(_input)
-        loss = - (1 - pt) ** self.gamma * target * torch.log(pt) - \
-            pt ** self.gamma * (1 - target) * torch.log(1 - pt)
-        if self.alpha:
-            loss = loss * self.alpha
-        if self.reduction == 'elementwise_mean':
-            loss = torch.mean(loss)
-        elif self.reduction == 'sum':
-            loss = torch.sum(loss)
-        return loss
-criterion_focal = BCEFocalLoss().to(device)
-
 criterion = nn.BCELoss().to(device)
+criterion_dc_ce = DC_and_CE_loss().to(device)
 
-optimizer = optim.Adam(model.parameters(), lr=0.001)
+optimizer = optim.Adam(model.parameters(), lr=0.0003)
 
 def train(Epoches,mpth):
     start_epoch = 0
@@ -69,34 +51,28 @@ def train(Epoches,mpth):
 
         model.train()
 
-        with open(trainData, 'r') as load_f:
-            load_dict = json.load(load_f)
-        data = []
-        for i in range(len(load_dict)):
-            data.append(load_dict[i]['path'])
-        print('in the train ', data)
-
-        for it,item in enumerate(data):
-            print('item', item)
-            print('train data', data)
+        for it, item in enumerate(trainData):
+            print('item', it, item)
             oneCaseLoss = 0
-            oneCase = load_case_data(trainData, it)
+            oneCase = load_case_data(trainData[0])
             examOneCase = DataSets(oneCase)
-            dataLoader = DataLoader(examOneCase, batch_size=2, shuffle=False, num_workers=4)
+            dataLoader = DataLoader(examOneCase, batch_size=1, shuffle=False, num_workers=4)
             for idx,(x,yy) in enumerate(dataLoader):
                 with torch.autograd.set_detect_anomaly(True):
                     x = Variable(x).to(device)
                     y = Variable(yy[0]).to(device)
 
+                    print('y shape', y.shape)
                     x = x.unsqueeze(1)
                     print(x.shape)
 
                     output = model(x)
                     output = torch.sigmoid(output)
+                    print("output:", output.shape)
 
-                    loss = criterion(output, y)
-                    focal_loss = criterion_focal(output, y)
-                    loss = loss + focal_loss
+                    # loss = criterion(output, y)
+                    # focal_loss = criterion_focal(output, y)
+                    loss = criterion_dc_ce(output, y)  # loss为SoftDice+CrossEntropy
 
                     iterLoss = loss.item()
                     oneCaseLoss += iterLoss
@@ -104,8 +80,7 @@ def train(Epoches,mpth):
                     optimizer.zero_grad()
                     loss.backward()
                     optimizer.step()
-
-            print('one case loss:',oneCaseLoss)
+            print('one case loss:', oneCaseLoss)
 
         if epoch % 3 == 0:
             ###保存模型###
@@ -132,17 +107,26 @@ def train(Epoches,mpth):
                     with torch.autograd.set_detect_anomaly(True):
                         x = Variable(x).to(device)
                         y = Variable(yy[0]).to(device)
-                        who = yy[1]
-                        arr = who[0].split('/')
-                        dir = str(arr[4])
-                        who = str(arr[6])
+
+                        slices_name = yy[1]
+                        print('who', slices_name[0][0])  # who是一个list，list中的元素是tuple
+                        arr = slices_name[0][0].split('/')
+                        print('arr', arr)  # arr ['.', 'data', 'temp', 'case_00000', 'GT', '1019.bmp']
+                        dir = str(arr[3])
+                        slice_name = str(arr[5])
+                        print('dir:{0} who:{1}'.format(dir, slice_name))
+
+                        # who = yy[1]
+                        # arr = who[0].split('/')
+                        # dir = str(arr[4])
+                        # who = str(arr[6])
 
                         output = model(x)
                         output = torch.sigmoid(output)
 
-                        loss = criterion(output, y)
-                        focal_loss = criterion_focal(output, y)
-                        loss = loss + focal_loss
+                        # loss = criterion(output, y)
+                        # focal_loss = criterion_focal(output, y)
+                        loss = criterion_dc_ce(output, y)
 
                         iterLoss = loss.item()
                         oneCaseValLoss += iterLoss
@@ -166,10 +150,11 @@ def train(Epoches,mpth):
                         isExists = os.path.exists(caseDir)
                         if not isExists:
                             os.mkdir(caseDir)
-                        cv2.imwrite('./res/' + dir + '/' + 'y_p2_' + who, y_p22)
-                        cv2.imwrite('./res/' + dir + '/' + 'y_p3_' + who, y_p33)
-                        cv2.imwrite('./res/' + dir + '/' + str(epoch) + '-' + who, y_out)
+                        cv2.imwrite('./res/' + dir + '/' + 'y_p2_' + slice_name, y_p22)
+                        cv2.imwrite('./res/' + dir + '/' + 'y_p3_' + slice_name, y_p33)
+                        cv2.imwrite('./res/' + dir + '/' + str(epoch) + '-' + slice_name, y_out)
 
+                        # dice指数
                         dice1 = dice_coeff(y_p1, y_t1)
                         backgroundDice += dice1
                         dice2 = dice_coeff(y_p2, y_t2)
@@ -194,7 +179,6 @@ def train(Epoches,mpth):
             print('background:', dice_back/len(validationData))
             print('kidney:', dice_kidney/len(validationData))
             print('tumor:', dice_tumor/len(validationData))
-
 
 if __name__ == "__main__":
     modelPath = './pth/'

@@ -4,33 +4,32 @@ import torch
 import numpy as np
 import config
 import json
-from torch.utils.data import Dataset,DataLoader
+from torch.utils.data import Dataset, DataLoader
 from torchvision import transforms
 
 dir = config.abs_data_root
 
-# 获取到某个训练集的所有案例的路径
-'''def load_all_data(file_path):
+# 载入测试集[验证集、测试集]案例
+def load_data(path):
+    with open(path, 'r') as load_f:
+        load_dict = json.load(load_f)
     data = []
-    with open(file_path, 'r') as load_f:
-        load_dict = json.load(load_f)
-    for idx in range(len(load_dict)):
-        data.append(load_dict[idx]['path'])
-    print(data)
+    for i in range(len(load_dict)):
+        data.append(load_dict[i])
     return data
-trainData = load_all_data(dir+'/trainData.json')
-'''
-# 这个部分可以和上面写在一起，因为我生成的Data.json文件既有目录也有图片起始位置
-def load_case_data(case, idx):
+
+trainData = load_data(dir+'trainData.json')
+testData = load_data(dir+'testData.json')
+validationData = load_data(dir+'validationData.json')
+
+# 载入一个样例中的全部切片
+def load_case_data(case):
     print(case)
-    with open(case, 'r') as load_f:
-        load_dict = json.load(load_f)
     caseData = []
     for i in range(config.depth):
-        start = int(load_dict[idx]['start pos'].strip('.bmp'))
-        slice_path = load_dict[idx]['path'] + str(start + i) + '.bmp'
+        start = int(case[-8:-4])  # 起始图片的序号
+        slice_path = case[0:-8] + str("%04d" % (start+i)) + '.bmp'  # 切片数是32，连续的32张
         caseData.append(slice_path)
-    print('case data', caseData)
     return caseData
 
 # caseData = load_case_data(dir+'trainData.json', 0)
@@ -41,42 +40,68 @@ class DataSets(Dataset):
             [transforms.Normalize(mean=(0.485,), std=(0.229,))]
         )
         self.GT = casedata
+        print('case data', casedata)
+        print('len GT', len(self.GT))
         self.slice = config.depth  # 一个病人取32张切片
 
     def __len__(self):
         return len(self.GT)
 
     def __getitem__(self, idx):
-        gt = self.GT[idx]
-        img = self.getOriginImage(gt)
+        # print('idx:', idx)
+        # gt = self.getGroundTruth()
+        # print(gt)
+        # img = self.getOriginImage()
+        # print('img', img)
 
-        slice_name = str(gt)
-        gt = cv.imread(gt, 0)
-        gt = cv.resize(gt, (160, 160))
-        gt = gt/127
-        gt = np.array(gt, dtype='int64')
-        gt = self.n_class(gt)
-        gt = gt.transpose(2, 0, 1)
-        gt = torch.FloatTensor(gt)
+        # slice_name = str(gt)
+        # gt = cv.imread(gt, 0)
+        # gt = cv.resize(gt, (160, 160))
+        # gt = gt/127
+        # gt = np.array(gt, dtype='int64')
+        # gt = self.n_class(gt)
+        # gt = gt.transpose(2, 0, 1)
+        # gt = torch.FloatTensor(gt)
 
-        imgs = []  # 原始图片的序列list
-        for i in img:
-            pic = cv.imread(i, 0)
-            pic = cv.resize(pic, (160, 160))
-            imgs.append(pic)
+        # imgs = []  # 原始图片的序列list
+        # for i in img:
+        #     pic = cv.imread(i, 0)
+        #     pic = cv.resize(pic, (160, 160))
+        #     imgs.append(pic)
+        slice_name = self.GT
+        gts = self.getGroundTruth()
+        imgs = self.getOriginImage()
+
+        gts = np.array(gts, dtype='int64')
+        print('gts', gts.shape)
+        gts = torch.from_numpy(gts)
 
         imgs = np.array(imgs, dtype='float32')
+        print('imgs', imgs.shape)
         imgs = torch.from_numpy(imgs)
         imgs = self.transform(imgs)
 
-        return imgs, (gt, slice_name)
+        return imgs, (gts, slice_name)
 
-    def getOriginImage(self, gt_path):
+    def getOriginImage(self):
+        casedata = self.GT
         imgs = []
         for i in range(config.depth):
-            origin_image = gt_path.replace('GT', 'Images')
-            imgs.append(origin_image)
+            origin_image = casedata[i].replace('GT', 'Images')
+            pic = cv.imread(origin_image, 0)
+            pic = cv.resize(pic, (160, 160))
+            imgs.append(pic)
         return imgs
+
+    def getGroundTruth(self):
+        casedata = self.GT
+        gts = []
+        for i in range(config.depth):
+            gt = cv.imread(casedata[i], 0)
+            gt = cv.resize(gt, (160, 160))
+            gt = gt / 127
+            gts.append(gt)
+        return gts
 
     def n_class(self, data, n=3):
         # one-hot

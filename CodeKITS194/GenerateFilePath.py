@@ -1,9 +1,11 @@
 import os
-from collections import OrderedDict
 import cv2
+import json
+import torch
 import random
 import config
-import json
+from random import shuffle
+from collections import OrderedDict
 
 path = config.abs_path + '/'
 dir = config.abs_data_root + '/'
@@ -11,40 +13,11 @@ json_dir = config.abs_data_root
 
 json_dict = OrderedDict()
 
-# TODO 将所有案例作为种子
-# TODO 选取训练、测试和验证集
-
-#  生成seeds.json
-def get_all_case(data_info_json_path):
-    dir = os.path.join(data_info_json_path, 'dataset.json')  # 获取所有数据的相关信息
-    with open(dir, 'r') as load_f:
-        load_dict = json.load(load_f)
-    length_of_data = load_dict['case num']  # case的数量，共11个
-    loop_times = 4  # 因为只用了四次增强，可以用load_dict['case'][0]['Total Image Num']/load_dict['case'][0]['Slice num']计算
-    json_dict['all cases'] = list()
-
-    for i in range(length_of_data):
-        slice_num = load_dict['case'][i]['Slice num']
-        start_pos = int((load_dict['case'][i]['Slice num'] - config.depth)/2)  # 计算中间32张切片的起始位置
-        case_dir = load_dict['case'][i]['GT']
-        list_of_case = sorted(os.listdir(case_dir))
-        for j in range(loop_times):
-            path = load_dict['case'][i]['GT']
-
-            start = list_of_case[start_pos + slice_num * j]
-            end = list_of_case[start_pos + config.depth + slice_num * j - 1]
-
-            dict = {'path': path, 'start pos': start, 'end pos': end}
-            json_dict['all cases'].append(dict)
-            print('start pos:{0},end pos:{1}'.format(start, end))
-    with open(os.path.join(json_dir, 'seeds.json'), 'w') as f:
-        json.dump(json_dict, f, indent=4)
-
 # 从seeds.json中按6：2：2比例得到训练集、验证集、测试集
 def randomDiv(seeds_path, size):
     with open(seeds_path, 'r') as load_f:
         load_dict = json.load(load_f)
-    seeds = load_dict['all cases']
+    seeds = load_dict['case']
     print(seeds)
 
     lenofsets = len(seeds)
@@ -58,15 +31,9 @@ def randomDiv(seeds_path, size):
     validationDataset = random.sample(restDataset, validationsize)
     testDataset = set(restDataset) - set(validationDataset)
 
-    json_dict['train case'] = list()
-    json_dict['test case'] = list()
-    json_dict['validation case'] = list()
-    for idx in trainDataset:
-        json_dict["train case"].append(load_dict['all cases'][idx])
-    for idx in testDataset:
-        json_dict['test case'].append(load_dict['all cases'][idx])
-    for idx in testDataset:
-        json_dict['validation case'].append(load_dict['all cases'][idx])
+    json_dict['train case'] = get_slice_include_aug(trainDataset, seeds)
+    json_dict['test case'] = get_origin_slice(testDataset, seeds)
+    json_dict['validation case'] = get_origin_slice(validationDataset, seeds)
 
     trainData_path = os.path.join(json_dir, 'trainData.json')
     testData_path = os.path.join(json_dir, 'testData.json')
@@ -84,5 +51,33 @@ def randomDiv(seeds_path, size):
     print('train data path', trainData_path)
     return trainData_path, testData_path, testData_path
 
-get_all_case(json_dir)
-trainData, validationData, testData = randomDiv(json_dir+'seeds.json', (0.6, 0.2, 0.2))
+# 训练集中包括数据增强部分
+def get_slice_include_aug(random_seed, seeds):
+    case_list = list()
+    loop_time = int(seeds[0]['Total Image Num']/seeds[0]['Slice num'])  # 一个案例中遍历的次数，数据增强为四次
+    # 遍历得到的随机种子，生成对应的list
+    for idx in random_seed:
+        file_list = sorted(os.listdir(seeds[idx]['GT']))
+        slice_num = seeds[idx]['Slice num']  # 每个案例的切片数目不一样，获取案例的切片数
+        start_pos = int((seeds[idx]['Slice num'] - config.depth) / 2)  # 得到此案例的中间切片位置
+        for i in range(loop_time):
+            start = file_list[start_pos + slice_num * i]
+            slice_path = seeds[idx]['GT'] + start
+            case_list.append(slice_path)
+    shuffle(case_list)
+    print('case list', case_list)
+    return case_list
+
+# 测试集和验证集中不包括数据增强
+def get_origin_slice(random_seed, seeds):
+    case_list = list()
+    for idx in random_seed:
+        file_list = sorted(os.listdir(seeds[idx]['GT']))
+        start_pos = int((seeds[idx]['Slice num'] - config.depth) / 2)  # 得到此案例的中间切片位置
+        start = file_list[start_pos]
+        slice_path = seeds[idx]['GT'] + start
+        case_list.append(slice_path)
+    print(case_list)
+    return case_list
+
+trainData, validationData, testData = randomDiv(json_dir+'dataset.json', (0.6, 0.2, 0.2))
