@@ -1,0 +1,2317 @@
+{
+    "Average pic size": 251.78571428571428,
+    "Average slice num": 81.93809523809524,
+    "case": [
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00000/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00000/Images/",
+            "Img Size": [
+                291,
+                291,
+                3
+            ],
+            "Slice num": 81,
+            "Total Image Num": 81
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00001/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00001/Images/",
+            "Img Size": [
+                252,
+                252,
+                3
+            ],
+            "Slice num": 67,
+            "Total Image Num": 67
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00002/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00002/Images/",
+            "Img Size": [
+                297,
+                297,
+                3
+            ],
+            "Slice num": 99,
+            "Total Image Num": 99
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00003/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00003/Images/",
+            "Img Size": [
+                270,
+                270,
+                3
+            ],
+            "Slice num": 82,
+            "Total Image Num": 82
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00004/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00004/Images/",
+            "Img Size": [
+                309,
+                309,
+                3
+            ],
+            "Slice num": 86,
+            "Total Image Num": 86
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00005/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00005/Images/",
+            "Img Size": [
+                309,
+                309,
+                3
+            ],
+            "Slice num": 87,
+            "Total Image Num": 87
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00006/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00006/Images/",
+            "Img Size": [
+                235,
+                235,
+                3
+            ],
+            "Slice num": 64,
+            "Total Image Num": 64
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00007/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00007/Images/",
+            "Img Size": [
+                297,
+                297,
+                3
+            ],
+            "Slice num": 69,
+            "Total Image Num": 69
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00008/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00008/Images/",
+            "Img Size": [
+                258,
+                258,
+                3
+            ],
+            "Slice num": 100,
+            "Total Image Num": 100
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00009/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00009/Images/",
+            "Img Size": [
+                256,
+                256,
+                3
+            ],
+            "Slice num": 84,
+            "Total Image Num": 84
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00010/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00010/Images/",
+            "Img Size": [
+                240,
+                240,
+                3
+            ],
+            "Slice num": 77,
+            "Total Image Num": 77
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00011/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00011/Images/",
+            "Img Size": [
+                222,
+                222,
+                3
+            ],
+            "Slice num": 70,
+            "Total Image Num": 70
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00012/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00012/Images/",
+            "Img Size": [
+                238,
+                238,
+                3
+            ],
+            "Slice num": 88,
+            "Total Image Num": 88
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00013/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00013/Images/",
+            "Img Size": [
+                216,
+                216,
+                3
+            ],
+            "Slice num": 67,
+            "Total Image Num": 67
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00014/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00014/Images/",
+            "Img Size": [
+                269,
+                269,
+                3
+            ],
+            "Slice num": 74,
+            "Total Image Num": 74
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00015/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00015/Images/",
+            "Img Size": [
+                223,
+                223,
+                3
+            ],
+            "Slice num": 71,
+            "Total Image Num": 71
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00016/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00016/Images/",
+            "Img Size": [
+                206,
+                206,
+                3
+            ],
+            "Slice num": 79,
+            "Total Image Num": 79
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00017/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00017/Images/",
+            "Img Size": [
+                210,
+                210,
+                3
+            ],
+            "Slice num": 84,
+            "Total Image Num": 84
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00018/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00018/Images/",
+            "Img Size": [
+                272,
+                272,
+                3
+            ],
+            "Slice num": 72,
+            "Total Image Num": 72
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00019/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00019/Images/",
+            "Img Size": [
+                296,
+                296,
+                3
+            ],
+            "Slice num": 81,
+            "Total Image Num": 81
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00020/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00020/Images/",
+            "Img Size": [
+                265,
+                265,
+                3
+            ],
+            "Slice num": 84,
+            "Total Image Num": 84
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00021/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00021/Images/",
+            "Img Size": [
+                260,
+                260,
+                3
+            ],
+            "Slice num": 70,
+            "Total Image Num": 70
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00022/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00022/Images/",
+            "Img Size": [
+                264,
+                264,
+                3
+            ],
+            "Slice num": 65,
+            "Total Image Num": 65
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00023/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00023/Images/",
+            "Img Size": [
+                247,
+                247,
+                3
+            ],
+            "Slice num": 90,
+            "Total Image Num": 90
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00024/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00024/Images/",
+            "Img Size": [
+                210,
+                210,
+                3
+            ],
+            "Slice num": 73,
+            "Total Image Num": 73
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00025/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00025/Images/",
+            "Img Size": [
+                233,
+                233,
+                3
+            ],
+            "Slice num": 96,
+            "Total Image Num": 96
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00026/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00026/Images/",
+            "Img Size": [
+                277,
+                277,
+                3
+            ],
+            "Slice num": 84,
+            "Total Image Num": 84
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00027/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00027/Images/",
+            "Img Size": [
+                283,
+                283,
+                3
+            ],
+            "Slice num": 79,
+            "Total Image Num": 79
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00028/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00028/Images/",
+            "Img Size": [
+                265,
+                265,
+                3
+            ],
+            "Slice num": 110,
+            "Total Image Num": 110
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00029/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00029/Images/",
+            "Img Size": [
+                238,
+                238,
+                3
+            ],
+            "Slice num": 85,
+            "Total Image Num": 85
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00030/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00030/Images/",
+            "Img Size": [
+                231,
+                231,
+                3
+            ],
+            "Slice num": 102,
+            "Total Image Num": 102
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00031/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00031/Images/",
+            "Img Size": [
+                164,
+                164,
+                3
+            ],
+            "Slice num": 69,
+            "Total Image Num": 69
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00032/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00032/Images/",
+            "Img Size": [
+                246,
+                246,
+                3
+            ],
+            "Slice num": 79,
+            "Total Image Num": 79
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00033/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00033/Images/",
+            "Img Size": [
+                256,
+                256,
+                3
+            ],
+            "Slice num": 75,
+            "Total Image Num": 75
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00034/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00034/Images/",
+            "Img Size": [
+                264,
+                264,
+                3
+            ],
+            "Slice num": 78,
+            "Total Image Num": 78
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00035/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00035/Images/",
+            "Img Size": [
+                305,
+                305,
+                3
+            ],
+            "Slice num": 87,
+            "Total Image Num": 87
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00036/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00036/Images/",
+            "Img Size": [
+                252,
+                252,
+                3
+            ],
+            "Slice num": 80,
+            "Total Image Num": 80
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00037/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00037/Images/",
+            "Img Size": [
+                296,
+                296,
+                3
+            ],
+            "Slice num": 106,
+            "Total Image Num": 106
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00038/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00038/Images/",
+            "Img Size": [
+                246,
+                246,
+                3
+            ],
+            "Slice num": 83,
+            "Total Image Num": 83
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00039/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00039/Images/",
+            "Img Size": [
+                222,
+                222,
+                3
+            ],
+            "Slice num": 84,
+            "Total Image Num": 84
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00040/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00040/Images/",
+            "Img Size": [
+                234,
+                234,
+                3
+            ],
+            "Slice num": 134,
+            "Total Image Num": 134
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00041/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00041/Images/",
+            "Img Size": [
+                214,
+                214,
+                3
+            ],
+            "Slice num": 82,
+            "Total Image Num": 82
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00042/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00042/Images/",
+            "Img Size": [
+                272,
+                272,
+                3
+            ],
+            "Slice num": 101,
+            "Total Image Num": 101
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00043/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00043/Images/",
+            "Img Size": [
+                233,
+                233,
+                3
+            ],
+            "Slice num": 83,
+            "Total Image Num": 83
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00044/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00044/Images/",
+            "Img Size": [
+                306,
+                306,
+                3
+            ],
+            "Slice num": 82,
+            "Total Image Num": 82
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00045/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00045/Images/",
+            "Img Size": [
+                234,
+                234,
+                3
+            ],
+            "Slice num": 63,
+            "Total Image Num": 63
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00046/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00046/Images/",
+            "Img Size": [
+                309,
+                309,
+                3
+            ],
+            "Slice num": 93,
+            "Total Image Num": 93
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00047/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00047/Images/",
+            "Img Size": [
+                270,
+                270,
+                3
+            ],
+            "Slice num": 82,
+            "Total Image Num": 82
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00048/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00048/Images/",
+            "Img Size": [
+                329,
+                329,
+                3
+            ],
+            "Slice num": 85,
+            "Total Image Num": 85
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00049/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00049/Images/",
+            "Img Size": [
+                272,
+                272,
+                3
+            ],
+            "Slice num": 64,
+            "Total Image Num": 64
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00050/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00050/Images/",
+            "Img Size": [
+                218,
+                218,
+                3
+            ],
+            "Slice num": 73,
+            "Total Image Num": 73
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00051/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00051/Images/",
+            "Img Size": [
+                304,
+                304,
+                3
+            ],
+            "Slice num": 74,
+            "Total Image Num": 74
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00052/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00052/Images/",
+            "Img Size": [
+                302,
+                302,
+                3
+            ],
+            "Slice num": 79,
+            "Total Image Num": 79
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00053/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00053/Images/",
+            "Img Size": [
+                244,
+                244,
+                3
+            ],
+            "Slice num": 61,
+            "Total Image Num": 61
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00054/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00054/Images/",
+            "Img Size": [
+                309,
+                309,
+                3
+            ],
+            "Slice num": 100,
+            "Total Image Num": 100
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00055/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00055/Images/",
+            "Img Size": [
+                278,
+                278,
+                3
+            ],
+            "Slice num": 100,
+            "Total Image Num": 100
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00056/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00056/Images/",
+            "Img Size": [
+                247,
+                247,
+                3
+            ],
+            "Slice num": 110,
+            "Total Image Num": 110
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00057/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00057/Images/",
+            "Img Size": [
+                260,
+                260,
+                3
+            ],
+            "Slice num": 77,
+            "Total Image Num": 77
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00058/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00058/Images/",
+            "Img Size": [
+                301,
+                301,
+                3
+            ],
+            "Slice num": 96,
+            "Total Image Num": 96
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00059/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00059/Images/",
+            "Img Size": [
+                249,
+                249,
+                3
+            ],
+            "Slice num": 88,
+            "Total Image Num": 88
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00060/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00060/Images/",
+            "Img Size": [
+                264,
+                264,
+                3
+            ],
+            "Slice num": 62,
+            "Total Image Num": 62
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00061/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00061/Images/",
+            "Img Size": [
+                309,
+                309,
+                3
+            ],
+            "Slice num": 83,
+            "Total Image Num": 83
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00062/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00062/Images/",
+            "Img Size": [
+                309,
+                309,
+                3
+            ],
+            "Slice num": 78,
+            "Total Image Num": 78
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00063/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00063/Images/",
+            "Img Size": [
+                272,
+                272,
+                3
+            ],
+            "Slice num": 74,
+            "Total Image Num": 74
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00064/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00064/Images/",
+            "Img Size": [
+                222,
+                222,
+                3
+            ],
+            "Slice num": 63,
+            "Total Image Num": 63
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00065/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00065/Images/",
+            "Img Size": [
+                259,
+                259,
+                3
+            ],
+            "Slice num": 81,
+            "Total Image Num": 81
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00066/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00066/Images/",
+            "Img Size": [
+                273,
+                273,
+                3
+            ],
+            "Slice num": 71,
+            "Total Image Num": 71
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00067/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00067/Images/",
+            "Img Size": [
+                241,
+                241,
+                3
+            ],
+            "Slice num": 105,
+            "Total Image Num": 105
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00068/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00068/Images/",
+            "Img Size": [
+                222,
+                222,
+                3
+            ],
+            "Slice num": 70,
+            "Total Image Num": 70
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00069/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00069/Images/",
+            "Img Size": [
+                216,
+                216,
+                3
+            ],
+            "Slice num": 79,
+            "Total Image Num": 79
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00070/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00070/Images/",
+            "Img Size": [
+                231,
+                231,
+                3
+            ],
+            "Slice num": 82,
+            "Total Image Num": 82
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00071/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00071/Images/",
+            "Img Size": [
+                222,
+                222,
+                3
+            ],
+            "Slice num": 64,
+            "Total Image Num": 64
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00072/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00072/Images/",
+            "Img Size": [
+                210,
+                210,
+                3
+            ],
+            "Slice num": 82,
+            "Total Image Num": 82
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00073/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00073/Images/",
+            "Img Size": [
+                272,
+                272,
+                3
+            ],
+            "Slice num": 110,
+            "Total Image Num": 110
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00074/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00074/Images/",
+            "Img Size": [
+                205,
+                205,
+                3
+            ],
+            "Slice num": 81,
+            "Total Image Num": 81
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00075/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00075/Images/",
+            "Img Size": [
+                223,
+                223,
+                3
+            ],
+            "Slice num": 72,
+            "Total Image Num": 72
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00076/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00076/Images/",
+            "Img Size": [
+                214,
+                214,
+                3
+            ],
+            "Slice num": 69,
+            "Total Image Num": 69
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00077/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00077/Images/",
+            "Img Size": [
+                223,
+                223,
+                3
+            ],
+            "Slice num": 94,
+            "Total Image Num": 94
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00078/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00078/Images/",
+            "Img Size": [
+                304,
+                304,
+                3
+            ],
+            "Slice num": 95,
+            "Total Image Num": 95
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00079/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00079/Images/",
+            "Img Size": [
+                204,
+                204,
+                3
+            ],
+            "Slice num": 79,
+            "Total Image Num": 79
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00080/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00080/Images/",
+            "Img Size": [
+                228,
+                228,
+                3
+            ],
+            "Slice num": 78,
+            "Total Image Num": 78
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00081/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00081/Images/",
+            "Img Size": [
+                311,
+                311,
+                3
+            ],
+            "Slice num": 95,
+            "Total Image Num": 95
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00082/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00082/Images/",
+            "Img Size": [
+                246,
+                246,
+                3
+            ],
+            "Slice num": 78,
+            "Total Image Num": 78
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00083/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00083/Images/",
+            "Img Size": [
+                309,
+                309,
+                3
+            ],
+            "Slice num": 83,
+            "Total Image Num": 83
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00084/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00084/Images/",
+            "Img Size": [
+                309,
+                309,
+                3
+            ],
+            "Slice num": 104,
+            "Total Image Num": 104
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00085/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00085/Images/",
+            "Img Size": [
+                257,
+                257,
+                3
+            ],
+            "Slice num": 82,
+            "Total Image Num": 82
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00086/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00086/Images/",
+            "Img Size": [
+                249,
+                249,
+                3
+            ],
+            "Slice num": 76,
+            "Total Image Num": 76
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00087/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00087/Images/",
+            "Img Size": [
+                219,
+                219,
+                3
+            ],
+            "Slice num": 69,
+            "Total Image Num": 69
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00088/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00088/Images/",
+            "Img Size": [
+                138,
+                138,
+                3
+            ],
+            "Slice num": 61,
+            "Total Image Num": 61
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00089/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00089/Images/",
+            "Img Size": [
+                287,
+                287,
+                3
+            ],
+            "Slice num": 79,
+            "Total Image Num": 79
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00090/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00090/Images/",
+            "Img Size": [
+                243,
+                243,
+                3
+            ],
+            "Slice num": 68,
+            "Total Image Num": 68
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00091/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00091/Images/",
+            "Img Size": [
+                249,
+                249,
+                3
+            ],
+            "Slice num": 102,
+            "Total Image Num": 102
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00092/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00092/Images/",
+            "Img Size": [
+                222,
+                222,
+                3
+            ],
+            "Slice num": 82,
+            "Total Image Num": 82
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00093/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00093/Images/",
+            "Img Size": [
+                288,
+                288,
+                3
+            ],
+            "Slice num": 85,
+            "Total Image Num": 85
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00094/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00094/Images/",
+            "Img Size": [
+                222,
+                222,
+                3
+            ],
+            "Slice num": 101,
+            "Total Image Num": 101
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00095/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00095/Images/",
+            "Img Size": [
+                295,
+                295,
+                3
+            ],
+            "Slice num": 77,
+            "Total Image Num": 77
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00096/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00096/Images/",
+            "Img Size": [
+                233,
+                233,
+                3
+            ],
+            "Slice num": 75,
+            "Total Image Num": 75
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00097/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00097/Images/",
+            "Img Size": [
+                234,
+                234,
+                3
+            ],
+            "Slice num": 85,
+            "Total Image Num": 85
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00098/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00098/Images/",
+            "Img Size": [
+                221,
+                221,
+                3
+            ],
+            "Slice num": 84,
+            "Total Image Num": 84
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00099/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00099/Images/",
+            "Img Size": [
+                223,
+                223,
+                3
+            ],
+            "Slice num": 85,
+            "Total Image Num": 85
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00100/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00100/Images/",
+            "Img Size": [
+                260,
+                260,
+                3
+            ],
+            "Slice num": 70,
+            "Total Image Num": 70
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00101/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00101/Images/",
+            "Img Size": [
+                244,
+                244,
+                3
+            ],
+            "Slice num": 67,
+            "Total Image Num": 67
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00102/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00102/Images/",
+            "Img Size": [
+                265,
+                265,
+                3
+            ],
+            "Slice num": 98,
+            "Total Image Num": 98
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00103/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00103/Images/",
+            "Img Size": [
+                262,
+                262,
+                3
+            ],
+            "Slice num": 80,
+            "Total Image Num": 80
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00104/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00104/Images/",
+            "Img Size": [
+                247,
+                247,
+                3
+            ],
+            "Slice num": 73,
+            "Total Image Num": 73
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00105/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00105/Images/",
+            "Img Size": [
+                282,
+                282,
+                3
+            ],
+            "Slice num": 77,
+            "Total Image Num": 77
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00106/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00106/Images/",
+            "Img Size": [
+                255,
+                255,
+                3
+            ],
+            "Slice num": 72,
+            "Total Image Num": 72
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00107/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00107/Images/",
+            "Img Size": [
+                227,
+                227,
+                3
+            ],
+            "Slice num": 84,
+            "Total Image Num": 84
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00108/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00108/Images/",
+            "Img Size": [
+                273,
+                273,
+                3
+            ],
+            "Slice num": 82,
+            "Total Image Num": 82
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00109/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00109/Images/",
+            "Img Size": [
+                185,
+                185,
+                3
+            ],
+            "Slice num": 88,
+            "Total Image Num": 88
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00110/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00110/Images/",
+            "Img Size": [
+                262,
+                262,
+                3
+            ],
+            "Slice num": 79,
+            "Total Image Num": 79
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00111/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00111/Images/",
+            "Img Size": [
+                235,
+                235,
+                3
+            ],
+            "Slice num": 86,
+            "Total Image Num": 86
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00112/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00112/Images/",
+            "Img Size": [
+                235,
+                235,
+                3
+            ],
+            "Slice num": 79,
+            "Total Image Num": 79
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00113/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00113/Images/",
+            "Img Size": [
+                222,
+                222,
+                3
+            ],
+            "Slice num": 83,
+            "Total Image Num": 83
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00114/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00114/Images/",
+            "Img Size": [
+                256,
+                256,
+                3
+            ],
+            "Slice num": 113,
+            "Total Image Num": 113
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00115/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00115/Images/",
+            "Img Size": [
+                222,
+                222,
+                3
+            ],
+            "Slice num": 65,
+            "Total Image Num": 65
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00116/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00116/Images/",
+            "Img Size": [
+                212,
+                212,
+                3
+            ],
+            "Slice num": 59,
+            "Total Image Num": 59
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00117/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00117/Images/",
+            "Img Size": [
+                267,
+                267,
+                3
+            ],
+            "Slice num": 84,
+            "Total Image Num": 84
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00118/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00118/Images/",
+            "Img Size": [
+                270,
+                270,
+                3
+            ],
+            "Slice num": 70,
+            "Total Image Num": 70
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00119/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00119/Images/",
+            "Img Size": [
+                241,
+                241,
+                3
+            ],
+            "Slice num": 94,
+            "Total Image Num": 94
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00120/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00120/Images/",
+            "Img Size": [
+                263,
+                263,
+                3
+            ],
+            "Slice num": 59,
+            "Total Image Num": 59
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00121/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00121/Images/",
+            "Img Size": [
+                217,
+                217,
+                3
+            ],
+            "Slice num": 81,
+            "Total Image Num": 81
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00122/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00122/Images/",
+            "Img Size": [
+                228,
+                228,
+                3
+            ],
+            "Slice num": 88,
+            "Total Image Num": 88
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00123/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00123/Images/",
+            "Img Size": [
+                275,
+                275,
+                3
+            ],
+            "Slice num": 66,
+            "Total Image Num": 66
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00124/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00124/Images/",
+            "Img Size": [
+                222,
+                222,
+                3
+            ],
+            "Slice num": 75,
+            "Total Image Num": 75
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00125/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00125/Images/",
+            "Img Size": [
+                309,
+                309,
+                3
+            ],
+            "Slice num": 69,
+            "Total Image Num": 69
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00126/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00126/Images/",
+            "Img Size": [
+                298,
+                298,
+                3
+            ],
+            "Slice num": 112,
+            "Total Image Num": 112
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00127/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00127/Images/",
+            "Img Size": [
+                309,
+                309,
+                3
+            ],
+            "Slice num": 84,
+            "Total Image Num": 84
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00128/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00128/Images/",
+            "Img Size": [
+                278,
+                278,
+                3
+            ],
+            "Slice num": 70,
+            "Total Image Num": 70
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00129/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00129/Images/",
+            "Img Size": [
+                233,
+                233,
+                3
+            ],
+            "Slice num": 70,
+            "Total Image Num": 70
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00130/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00130/Images/",
+            "Img Size": [
+                173,
+                173,
+                3
+            ],
+            "Slice num": 80,
+            "Total Image Num": 80
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00131/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00131/Images/",
+            "Img Size": [
+                211,
+                211,
+                3
+            ],
+            "Slice num": 75,
+            "Total Image Num": 75
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00132/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00132/Images/",
+            "Img Size": [
+                225,
+                225,
+                3
+            ],
+            "Slice num": 69,
+            "Total Image Num": 69
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00133/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00133/Images/",
+            "Img Size": [
+                269,
+                269,
+                3
+            ],
+            "Slice num": 80,
+            "Total Image Num": 80
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00134/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00134/Images/",
+            "Img Size": [
+                299,
+                299,
+                3
+            ],
+            "Slice num": 99,
+            "Total Image Num": 99
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00135/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00135/Images/",
+            "Img Size": [
+                265,
+                265,
+                3
+            ],
+            "Slice num": 75,
+            "Total Image Num": 75
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00136/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00136/Images/",
+            "Img Size": [
+                216,
+                216,
+                3
+            ],
+            "Slice num": 82,
+            "Total Image Num": 82
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00137/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00137/Images/",
+            "Img Size": [
+                235,
+                235,
+                3
+            ],
+            "Slice num": 83,
+            "Total Image Num": 83
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00138/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00138/Images/",
+            "Img Size": [
+                216,
+                216,
+                3
+            ],
+            "Slice num": 69,
+            "Total Image Num": 69
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00139/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00139/Images/",
+            "Img Size": [
+                253,
+                253,
+                3
+            ],
+            "Slice num": 92,
+            "Total Image Num": 92
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00140/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00140/Images/",
+            "Img Size": [
+                260,
+                260,
+                3
+            ],
+            "Slice num": 73,
+            "Total Image Num": 73
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00141/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00141/Images/",
+            "Img Size": [
+                225,
+                225,
+                3
+            ],
+            "Slice num": 80,
+            "Total Image Num": 80
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00142/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00142/Images/",
+            "Img Size": [
+                256,
+                256,
+                3
+            ],
+            "Slice num": 88,
+            "Total Image Num": 88
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00143/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00143/Images/",
+            "Img Size": [
+                290,
+                290,
+                3
+            ],
+            "Slice num": 84,
+            "Total Image Num": 84
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00144/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00144/Images/",
+            "Img Size": [
+                250,
+                250,
+                3
+            ],
+            "Slice num": 88,
+            "Total Image Num": 88
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00145/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00145/Images/",
+            "Img Size": [
+                309,
+                309,
+                3
+            ],
+            "Slice num": 99,
+            "Total Image Num": 99
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00146/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00146/Images/",
+            "Img Size": [
+                222,
+                222,
+                3
+            ],
+            "Slice num": 76,
+            "Total Image Num": 76
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00147/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00147/Images/",
+            "Img Size": [
+                309,
+                309,
+                3
+            ],
+            "Slice num": 72,
+            "Total Image Num": 72
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00148/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00148/Images/",
+            "Img Size": [
+                286,
+                286,
+                3
+            ],
+            "Slice num": 94,
+            "Total Image Num": 94
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00149/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00149/Images/",
+            "Img Size": [
+                252,
+                252,
+                3
+            ],
+            "Slice num": 99,
+            "Total Image Num": 99
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00150/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00150/Images/",
+            "Img Size": [
+                235,
+                235,
+                3
+            ],
+            "Slice num": 85,
+            "Total Image Num": 85
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00151/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00151/Images/",
+            "Img Size": [
+                256,
+                256,
+                3
+            ],
+            "Slice num": 101,
+            "Total Image Num": 101
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00152/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00152/Images/",
+            "Img Size": [
+                228,
+                228,
+                3
+            ],
+            "Slice num": 79,
+            "Total Image Num": 79
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00153/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00153/Images/",
+            "Img Size": [
+                210,
+                210,
+                3
+            ],
+            "Slice num": 87,
+            "Total Image Num": 87
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00154/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00154/Images/",
+            "Img Size": [
+                296,
+                296,
+                3
+            ],
+            "Slice num": 62,
+            "Total Image Num": 62
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00155/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00155/Images/",
+            "Img Size": [
+                256,
+                256,
+                3
+            ],
+            "Slice num": 81,
+            "Total Image Num": 81
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00156/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00156/Images/",
+            "Img Size": [
+                309,
+                309,
+                3
+            ],
+            "Slice num": 87,
+            "Total Image Num": 87
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00157/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00157/Images/",
+            "Img Size": [
+                269,
+                269,
+                3
+            ],
+            "Slice num": 72,
+            "Total Image Num": 72
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00158/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00158/Images/",
+            "Img Size": [
+                222,
+                222,
+                3
+            ],
+            "Slice num": 92,
+            "Total Image Num": 92
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00159/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00159/Images/",
+            "Img Size": [
+                242,
+                242,
+                3
+            ],
+            "Slice num": 88,
+            "Total Image Num": 88
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00160/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00160/Images/",
+            "Img Size": [
+                143,
+                222,
+                3
+            ],
+            "Slice num": 72,
+            "Total Image Num": 72
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00161/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00161/Images/",
+            "Img Size": [
+                275,
+                275,
+                3
+            ],
+            "Slice num": 73,
+            "Total Image Num": 73
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00162/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00162/Images/",
+            "Img Size": [
+                174,
+                174,
+                3
+            ],
+            "Slice num": 70,
+            "Total Image Num": 70
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00163/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00163/Images/",
+            "Img Size": [
+                296,
+                296,
+                3
+            ],
+            "Slice num": 90,
+            "Total Image Num": 90
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00164/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00164/Images/",
+            "Img Size": [
+                219,
+                219,
+                3
+            ],
+            "Slice num": 70,
+            "Total Image Num": 70
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00165/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00165/Images/",
+            "Img Size": [
+                307,
+                307,
+                3
+            ],
+            "Slice num": 80,
+            "Total Image Num": 80
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00166/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00166/Images/",
+            "Img Size": [
+                226,
+                226,
+                3
+            ],
+            "Slice num": 80,
+            "Total Image Num": 80
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00167/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00167/Images/",
+            "Img Size": [
+                276,
+                276,
+                3
+            ],
+            "Slice num": 81,
+            "Total Image Num": 81
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00168/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00168/Images/",
+            "Img Size": [
+                245,
+                245,
+                3
+            ],
+            "Slice num": 87,
+            "Total Image Num": 87
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00169/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00169/Images/",
+            "Img Size": [
+                239,
+                239,
+                3
+            ],
+            "Slice num": 72,
+            "Total Image Num": 72
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00170/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00170/Images/",
+            "Img Size": [
+                309,
+                309,
+                3
+            ],
+            "Slice num": 99,
+            "Total Image Num": 99
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00171/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00171/Images/",
+            "Img Size": [
+                240,
+                240,
+                3
+            ],
+            "Slice num": 81,
+            "Total Image Num": 81
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00172/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00172/Images/",
+            "Img Size": [
+                242,
+                242,
+                3
+            ],
+            "Slice num": 88,
+            "Total Image Num": 88
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00173/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00173/Images/",
+            "Img Size": [
+                260,
+                260,
+                3
+            ],
+            "Slice num": 81,
+            "Total Image Num": 81
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00174/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00174/Images/",
+            "Img Size": [
+                233,
+                233,
+                3
+            ],
+            "Slice num": 62,
+            "Total Image Num": 62
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00175/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00175/Images/",
+            "Img Size": [
+                231,
+                231,
+                3
+            ],
+            "Slice num": 82,
+            "Total Image Num": 82
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00176/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00176/Images/",
+            "Img Size": [
+                309,
+                309,
+                3
+            ],
+            "Slice num": 84,
+            "Total Image Num": 84
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00177/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00177/Images/",
+            "Img Size": [
+                213,
+                213,
+                3
+            ],
+            "Slice num": 72,
+            "Total Image Num": 72
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00178/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00178/Images/",
+            "Img Size": [
+                273,
+                273,
+                3
+            ],
+            "Slice num": 89,
+            "Total Image Num": 89
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00179/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00179/Images/",
+            "Img Size": [
+                235,
+                235,
+                3
+            ],
+            "Slice num": 85,
+            "Total Image Num": 85
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00180/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00180/Images/",
+            "Img Size": [
+                234,
+                234,
+                3
+            ],
+            "Slice num": 86,
+            "Total Image Num": 86
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00181/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00181/Images/",
+            "Img Size": [
+                219,
+                219,
+                3
+            ],
+            "Slice num": 113,
+            "Total Image Num": 113
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00182/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00182/Images/",
+            "Img Size": [
+                296,
+                296,
+                3
+            ],
+            "Slice num": 69,
+            "Total Image Num": 69
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00183/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00183/Images/",
+            "Img Size": [
+                223,
+                223,
+                3
+            ],
+            "Slice num": 90,
+            "Total Image Num": 90
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00184/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00184/Images/",
+            "Img Size": [
+                265,
+                265,
+                3
+            ],
+            "Slice num": 85,
+            "Total Image Num": 85
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00185/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00185/Images/",
+            "Img Size": [
+                288,
+                288,
+                3
+            ],
+            "Slice num": 101,
+            "Total Image Num": 101
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00186/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00186/Images/",
+            "Img Size": [
+                232,
+                232,
+                3
+            ],
+            "Slice num": 98,
+            "Total Image Num": 98
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00187/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00187/Images/",
+            "Img Size": [
+                198,
+                198,
+                3
+            ],
+            "Slice num": 94,
+            "Total Image Num": 94
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00188/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00188/Images/",
+            "Img Size": [
+                215,
+                215,
+                3
+            ],
+            "Slice num": 66,
+            "Total Image Num": 66
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00189/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00189/Images/",
+            "Img Size": [
+                235,
+                235,
+                3
+            ],
+            "Slice num": 112,
+            "Total Image Num": 112
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00190/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00190/Images/",
+            "Img Size": [
+                228,
+                228,
+                3
+            ],
+            "Slice num": 82,
+            "Total Image Num": 82
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00191/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00191/Images/",
+            "Img Size": [
+                235,
+                235,
+                3
+            ],
+            "Slice num": 85,
+            "Total Image Num": 85
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00192/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00192/Images/",
+            "Img Size": [
+                247,
+                247,
+                3
+            ],
+            "Slice num": 97,
+            "Total Image Num": 97
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00193/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00193/Images/",
+            "Img Size": [
+                222,
+                222,
+                3
+            ],
+            "Slice num": 69,
+            "Total Image Num": 69
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00194/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00194/Images/",
+            "Img Size": [
+                237,
+                237,
+                3
+            ],
+            "Slice num": 84,
+            "Total Image Num": 84
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00195/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00195/Images/",
+            "Img Size": [
+                241,
+                241,
+                3
+            ],
+            "Slice num": 81,
+            "Total Image Num": 81
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00196/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00196/Images/",
+            "Img Size": [
+                259,
+                259,
+                3
+            ],
+            "Slice num": 73,
+            "Total Image Num": 73
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00197/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00197/Images/",
+            "Img Size": [
+                276,
+                276,
+                3
+            ],
+            "Slice num": 91,
+            "Total Image Num": 91
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00198/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00198/Images/",
+            "Img Size": [
+                231,
+                231,
+                3
+            ],
+            "Slice num": 75,
+            "Total Image Num": 75
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00199/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00199/Images/",
+            "Img Size": [
+                235,
+                235,
+                3
+            ],
+            "Slice num": 73,
+            "Total Image Num": 73
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00200/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00200/Images/",
+            "Img Size": [
+                235,
+                235,
+                3
+            ],
+            "Slice num": 80,
+            "Total Image Num": 80
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00201/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00201/Images/",
+            "Img Size": [
+                247,
+                247,
+                3
+            ],
+            "Slice num": 74,
+            "Total Image Num": 74
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00202/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00202/Images/",
+            "Img Size": [
+                284,
+                284,
+                3
+            ],
+            "Slice num": 71,
+            "Total Image Num": 71
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00203/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00203/Images/",
+            "Img Size": [
+                201,
+                201,
+                3
+            ],
+            "Slice num": 67,
+            "Total Image Num": 67
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00204/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00204/Images/",
+            "Img Size": [
+                277,
+                277,
+                3
+            ],
+            "Slice num": 82,
+            "Total Image Num": 82
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00205/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00205/Images/",
+            "Img Size": [
+                247,
+                247,
+                3
+            ],
+            "Slice num": 81,
+            "Total Image Num": 81
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00206/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00206/Images/",
+            "Img Size": [
+                307,
+                307,
+                3
+            ],
+            "Slice num": 69,
+            "Total Image Num": 69
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00207/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00207/Images/",
+            "Img Size": [
+                238,
+                238,
+                3
+            ],
+            "Slice num": 103,
+            "Total Image Num": 103
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00208/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00208/Images/",
+            "Img Size": [
+                280,
+                280,
+                3
+            ],
+            "Slice num": 81,
+            "Total Image Num": 81
+        },
+        {
+            "GT": "/datasets/users/wuxixi/data20/kits/case_00209/GT/",
+            "Images": "/datasets/users/wuxixi/data20/kits/case_00209/Images/",
+            "Img Size": [
+                247,
+                247,
+                3
+            ],
+            "Slice num": 78,
+            "Total Image Num": 78
+        }
+    ],
+    "case num": 210
+}
